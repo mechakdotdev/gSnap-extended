@@ -1,18 +1,8 @@
 # gSnap
 
-Gnome-shell extension that allows you to move windows into specific regions similiar to FancyZones on windows.
+An extension of the Gnome-shell extension by @micahosborne that allows you to move windows into specific regions similiar to FancyZones on Windows.
 
-This extension was built from gTile, stripped it down and changed it to work like FancyZones.  Thanks to all the folks
-that worked on gTile as it made my process of developing this much easier.
-
-This extensions is developed in freetime.  Developer got to eat, if you like it, consider buying me a coffee :)
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/micahosborne)
-
-## Installation
-
-[Install From The Gnome Extensions Page](https://extensions.gnome.org/extension/4442/gsnap/)
-
+This extension was built from gSnap which was originally built on gTile, so thanks to the teams that worked on both of those.
 
 ### Installation from source
 You can alternatively manually install the latest version from GitHub master branch:
@@ -20,7 +10,7 @@ You can alternatively manually install the latest version from GitHub master bra
 1. Clone the repository to a folder of your choice.
 
    ```shell
-   git clone https://github.com/micahosborne/gSnap.git
+   git clone https://github.com/mechakdotdev/gSnap-extended.git
    ```
    Note: It is not recommended to clone the repository directly into. The code gSnap
    installs into the extensions folder is a compiled version of the code in the
@@ -69,7 +59,7 @@ When done click "Stop Editing"
 
 Layouts are stored in this file.
 ```shell
-gedit ~/.local/share/gnome-shell/extensions/gSnap@micahosborne/layouts.json 
+gedit ~/.local/share/gnome-shell/extensions/gSnap-extended@mechakdotdev/layouts.json 
 ```
 After editing layouts disable and re-enable the plugin
 
@@ -145,9 +135,7 @@ Shortcut | Description
 
 ## Source code
 
-This extension is developed at [GitHub](https://github.com/micahosborne/gSnap).
-
-gTile was the basis for which I started at [GitHub](https://github.com/gTile/gtile).
+This extension is an extension of gSnap on [GitHub](https://github.com/micahosborne/gSnap), which is based on gTile which can be found here [GitHub](https://github.com/gTile/gtile).
 
 gSnap is licensed under the [GPL v2+](https://www.gnu.org/licenses/gpl-2.0.html)
 
