@@ -15,7 +15,7 @@ git clone https://github.com/micahosborne/gSnap.git
 
 You will need to [install NodeJS](https://nodejs.org) on your
 system to run the build tool. Then, you can run the installation script to
-install to `$HOME/.local/share/gnome-shell/extensions/gSnap@micahosborne`.
+install to `$HOME/.local/share/gnome-shell/extensions/gSnap-extended@mechakdotdev`.
 
 ```shell
 npm run install-extension
