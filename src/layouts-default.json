@@ -1,125 +1,97 @@
 {
   "workspaces": [
-    [
-      {
-        "current": 3
-      },
-      {
-        "current": 2
-      }
-    ],
-    [
-      {
-        "current": 3
-      },
-      {
-        "current": 2
-      }
-    ]
+    [{ "current": 1 }, { "current": 2 }],
+    [{ "current": 1 }, { "current": 2 }],
+    [{ "current": 2 }],
+    [{ "current": 1 }],
+    [{ "current": 0 }]
   ],
   "definitions": [
+    { "name": "None", "type": 0, "length": 100, "items": [] },
     {
-      "name": "None",
+      "name": "One Focus",
+      "type": 1,
+      "length": 100,
+      "items": [{ "type": 0, "length": 100 }]
+    },
+    {
+      "name": "One Focus (Dodge)",
+      "type": 1,
+      "length": 100,
+      "items": [{ "type": 0, "length": 92 }]
+    },
+    {
+      "name": "Two Windows",
       "type": 0,
       "length": 100,
       "items": [
+        { "type": 1, "length": 50, "items": [{ "type": 0, "length": 100 }] },
+        { "type": 1, "length": 50, "items": [{ "type": 0, "length": 100 }] }
       ]
     },
     {
-      "name": "1 Column",
+      "name": "Two Windows (Dodge)",
       "type": 0,
       "length": 100,
       "items": [
-        {
-          "type": 1,
-          "length": 100
-        }
+        { "type": 1, "length": 50, "items": [{ "type": 0, "length": 92 }] },
+        { "type": 1, "length": 50, "items": [{ "type": 0, "length": 92 }] }
       ]
     },
     {
-      "name": "2 Column Split",
+      "name": "Two Windows Stacked",
       "type": 0,
       "length": 100,
       "items": [
         {
           "type": 1,
-          "length": 50
-        },
-        {
-          "type": 1,
-          "length": 50
-        }
-      ]
-    },
-    {
-      "name": "3 Column",
-      "type": 0,
-      "length": 100,
-      "items": [
-        {
-          "type": 1,
-          "length": 33
-        },
-        {
-          "type": 1,
-          "length": 34
-        },
-        {
-          "type": 1,
-          "length": 33
-        }
-      ]
-    },
-    {
-      "name": "3 Column (Focused)",
-      "type": 0,
-      "length": 100,
-      "items": [
-        {
-          "type": 1,
-          "length": 25
-        },
-        {
-          "type": 1,
-          "length": 50
-        },
-        {
-          "type": 1,
-          "length": 25
-        }
-      ]
-    },
-    {
-      "name": "3 Columns (Custom)",
-      "type": 0,
-      "length": 100,
-      "items": [
-        {
-          "type": 1,
-          "length": 42
-        },
-        {
-          "type": 1,
-          "length": 16,
+          "length": 100,
           "items": [
-            {
-              "type": 0,
-              "length": 33
-            },
-            {
-              "type": 0,
-              "length": 34
-            },
-            {
-              "type": 0,
-              "length": 33
-            }
+            { "type": 0, "length": 50 },
+            { "type": 0, "length": 50 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Side-load Right",
+      "type": 0,
+      "length": 100,
+      "items": [
+        { "type": 1, "length": 75, "items": [{ "type": 0, "length": 100 }] },
+        { "type": 1, "length": 25, "items": [{ "type": 0, "length": 100 }] }
+      ]
+    },
+    {
+      "name": "Left Focus",
+      "type": 0,
+      "length": 100,
+      "items": [
+        { "type": 1, "length": 50 },
+        {
+          "type": 1,
+          "length": 50,
+          "items": [
+            { "type": 0, "length": 50 },
+            { "type": 0, "length": 50 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Focus",
+      "type": 0,
+      "length": 100,
+      "items": [
+        {
+          "type": 1,
+          "length": 50,
+          "items": [
+            { "type": 0, "length": 50 },
+            { "type": 0, "length": 50 }
           ]
         },
-        {
-          "type": 1,
-          "length": 42
-        }
+        { "type": 1, "length": 50 }
       ]
     }
   ]
